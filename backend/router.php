@@ -5,6 +5,8 @@ require_once "Core/mkwdb.php";
 
 ### CONTROLLERS ###
 require_once "Controllers/UsersController.php";
+require_once "Controllers/FriendsController.php";
+require_once "Controllers/FriendsRequestsController.php";
 
 header("Content-Type: application/json");
 
